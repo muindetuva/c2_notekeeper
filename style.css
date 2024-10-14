@@ -1,0 +1,44 @@
+h1 {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.note {
+  background-color: purple;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+.input-group label {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.input-group textarea {
+  height: 150px;
+  width: 250px;
+  padding: 10px;
+}
+
+.btn {
+  background-color: purple;
+  color: white;
+  padding: 6px 15px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgba(128, 0, 128, 0.474);
+}

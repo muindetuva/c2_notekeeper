@@ -4,11 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
     <title>Notekeeper</title>
 </head>
 
 <body>
     <h1>Notekeeper</h1>
+
+    <div class="container">
+        <div class="view-notes">
+
+            <div class="note">
+                Prepare for a learning workshop
+            </div>
+
+            <div class="note">
+                Send out project emails
+            </div>
+
+        </div>
+        <div class="add-notes">
+            <form action="#">
+                <div class="input-group">
+                    <label for="note">Note</label>
+                    <textarea name="note" id="note-input" placeholder="Enter your note here"></textarea>
+                </div>
+
+                <input class="btn" type="submit" value="Add Note">
+            </form>
+
+        </div>
+    </div>
 </body>
 
 </html>
